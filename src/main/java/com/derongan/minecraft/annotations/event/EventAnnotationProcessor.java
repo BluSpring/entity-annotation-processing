@@ -30,7 +30,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 
-@SupportedSourceVersion(SourceVersion.RELEASE_8)
+@SupportedSourceVersion(SourceVersion.RELEASE_17)
 @SupportedAnnotationTypes("com.derongan.minecraft.annotations.event.ExpandEventHandler")
 public class EventAnnotationProcessor extends AbstractProcessor {
 
