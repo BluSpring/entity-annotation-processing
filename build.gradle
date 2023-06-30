@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.derongan.minecraft'
-version '1.2-SNAPSHOT'
+version '1.3-SNAPSHOT'
 
 sourceCompatibility = 17
 
@@ -20,7 +20,7 @@ repositories {
 //Make it chubby
 jar {
     from {
-        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.implementation.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }
 
